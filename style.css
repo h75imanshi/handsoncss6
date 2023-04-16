@@ -1,0 +1,258 @@
+body{
+    background-image: url(./shara\ desert.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-1{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.navbar{
+    display: flex;
+}
+.navbar-icon{
+    position: relative;
+    left: 50px;
+    top: 20px;
+}
+ul li{
+    list-style: none;
+    margin: 0px 20px;
+    display: inline-block;
+    padding: 0px 10px;
+    color:white;
+}
+.container-2
+{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+}
+.sahara
+{
+    font-size:20px;
+    color:white;
+    font-family: "Crete Round";
+    position: relative;
+    margin-bottom: 250px;
+    margin-top: 250px;
+    padding: 10px;
+    left: -300px;
+
+}
+p
+{
+    color: aliceblue;
+    position: relative;
+    font-weight: bold;
+    justify-content: left;
+    bottom: 50px;
+    left: 60px;
+
+}
+.task
+{
+    border-radius: 25px;
+    position: relative;
+    width: 200px;
+    height: 50px;
+    bottom: 50px;
+    left:200px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+.main
+{
+    position: relative;
+    font-size: 56px;
+    font-weight:bold;
+    bottom: 60px;
+    left: 200px;
+
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 200px 200px;
+    height: 550px;
+    row-gap: 20px;
+    column-gap: 40px;
+    width: 80%;
+}
+
+
+.box{
+    border-radius: 10px;
+    position: relative;
+    left: 750px;
+    bottom: 600px;
+    cursor: pointer;
+    background-color: transparent;
+
+}
+.box:hover
+{
+ background-color: white;
+ position: relative;
+ transform: translateY(-15px);
+
+}
+.box1
+{
+    background-image: url(./pic-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-weight: bold;
+    text-align:center;
+    font-size: 18px;
+    transition: 0.5s;
+   
+
+}
+.box2
+{
+    background-image: url(./pic-2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color:white;
+    font-weight: bold;
+    text-align:center;
+    font-size: 18px;
+    transition: 0.5s;
+
+}
+
+.box3
+{
+    background-image: url(./pic-3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color:white;
+    font-weight: bold;
+    text-align:center;
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+
+.box4
+{
+    background-image: url(./pic-4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  color: white;
+    font-weight: bold;
+    text-align:center;
+    font-size: 18px;
+    transition: 0.5s;
+    
+}
+
+.h3
+{
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+.lorem
+{
+    font-weight: bold;
+    padding-left: 20px;
+}
+@media screen and (min-width:280px) and (max-width:500px){
+    .grid{
+        grid-template-columns: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    body
+    
+    {
+        background-size: auto;
+        background-repeat: repeat;
+    }
+    ul li
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .box{
+        height: 240px;
+        width: 240px;
+        color: white;
+    }
+    .navbar
+    {
+        flex-direction: row;
+        justify-content: flex-start;
+    } 
+   .sahara {
+        width: 250px;
+    } 
+  .container-1  {
+        flex-direction: row;
+        justify-content: flex-start;
+        gap: 130px;
+    } 
+   .container-2 {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+     
+    } 
+
+}
+@media screen and (min-width:500px) and (max-width:1000px){
+    .grid{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+   
+    .box{
+        height: 250px;
+        width: 600px;
+        background-position: center;
+    }
+    body
+    
+    {
+        background-size: auto;
+        background-repeat: repeat;
+        height: 100px;
+
+    }
+    .sahara {
+        width: 500px;
+    } 
+  .container-1  {
+    flex-wrap: wrap;
+        gap: 0px;
+    } 
+   .container-2 {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+     
+    } 
+
+    .navbar
+    {
+    flex-wrap: wrap;
+         
+        } 
+
+}
